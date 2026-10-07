@@ -1,0 +1,91 @@
+{
+  "week": 1,
+  "stage": 1,
+  "title": "Sounds, greetings & polite address",
+  "focus": "Greet people at any time of day, introduce yourself, address people respectfully (Bapak/Ibu), church greetings, and the first Malay → Indonesian traps.",
+  "lesson": {
+    "title": "Week 1 · Bunyi & salam (Sounds & greetings)",
+    "sections": [
+      {
+        "h": "How Indonesian sounds",
+        "p": ["Indonesian is spelled almost exactly as it sounds, so once you know a handful of rules you can read anything aloud. In the pronunciation hints, CAPITALS mark a light stress — Indonesian stress is gentle, so don't punch it."],
+        "list": [
+          "c is always \"ch\": cari = CHAH-ree, bicara = bee-CHAH-rah",
+          "e is usually a soft \"uh\": enam = uh-NAHM, selamat = suh-LAH-maht. Sometimes it's \"eh\": sore = SO-reh. Learn it word by word.",
+          "ng is the sound in \"sing\" — even at the start: nggak = ngahk",
+          "ny is the sound in \"canyon\": banyak = BAH-nyahk",
+          "r is a light roll or tap, never the English \"rr\"",
+          "kh sounds like a soft throat \"h\"; final k is almost silent: Bapak = BAH-pah(k)"
+        ]
+      },
+      {
+        "h": "Greetings follow the clock",
+        "list": [
+          "Selamat pagi — morning, until about 11am",
+          "Selamat siang — late morning to about 3pm",
+          "Selamat sore — about 3pm until dusk",
+          "Selamat malam — evening and night"
+        ],
+        "p": ["At church on Sunday morning you'll hear \"Selamat pagi, Bapak-Ibu sekalian\" — good morning, everyone. Many Indonesian Christians also greet each other with \"Syalom\"."]
+      },
+      {
+        "h": "Respect: use the title instead of \"you\"",
+        "p": [
+          "Indonesians often avoid saying \"you\" to an older or respected person. Instead they use the title: \"Bapak dari mana?\" literally \"Where is Sir from?\" means \"Where are you from?\" Use Bapak (Pak) for men and Ibu (Bu) for women — pastors, elders, hosts, anyone older.",
+          "Anda is the polite \"you\" for strangers and formal settings. Kamu is for friends and people younger than you. Mas and Mbak are friendly titles for young men and women — waiters, drivers, shop staff.",
+          "For ministry, default to Bapak/Ibu and Anda. It's always safe to be too polite."
+        ]
+      },
+      {
+        "h": "Malay traps (because you live in Singapore)",
+        "p": ["Your Malay helps, but some words differ or even mean something else in Indonesia. This week's traps are marked with a red tag. The big ones: kereta is a train (car = mobil), and percuma means \"pointless\" (free = gratis)."]
+      }
+    ]
+  },
+  "items": [
+    { "key": "w1-pagi", "text": "Selamat pagi", "en": "Good morning", "pron": "suh-LAH-maht PAH-gee", "tags": ["greetings"], "register": "neutral" },
+    { "key": "w1-siang", "text": "Selamat siang", "en": "Good day (late morning – 3pm)", "pron": "suh-LAH-maht SEE-ahng", "tags": ["greetings"], "register": "neutral" },
+    { "key": "w1-sore", "text": "Selamat sore", "en": "Good afternoon (3pm – dusk)", "pron": "suh-LAH-maht SO-reh", "tags": ["greetings"], "register": "neutral", "note": "The e here is \"eh\", not \"uh\"." },
+    { "key": "w1-malam", "text": "Selamat malam", "en": "Good evening / good night", "pron": "suh-LAH-maht MAH-lahm", "tags": ["greetings"], "register": "neutral" },
+    { "key": "w1-datang", "text": "Selamat datang", "en": "Welcome", "pron": "suh-LAH-maht DAH-tahng", "tags": ["greetings"], "register": "neutral" },
+    { "key": "w1-kabar", "text": "Apa kabar?", "en": "How are you?", "pron": "AH-pah KAH-bar", "tags": ["greetings"], "register": "neutral" },
+    { "key": "w1-baik", "text": "Baik, terima kasih", "en": "Fine, thank you", "pron": "BAH-eek, tuh-REE-mah KAH-see", "tags": ["greetings"], "register": "neutral" },
+    { "key": "w1-kabar-baik", "text": "Kabar baik", "en": "I'm well (lit. good news)", "pron": "KAH-bar BAH-eek", "tags": ["greetings"], "register": "neutral" },
+    { "key": "w1-terima-kasih", "text": "Terima kasih banyak", "en": "Thank you very much", "pron": "tuh-REE-mah KAH-see BAH-nyahk", "tags": ["politeness"], "register": "neutral" },
+    { "key": "w1-makasih", "text": "Makasih", "en": "Thanks (casual)", "pron": "mah-KAH-see", "tags": ["politeness"], "register": "casual" },
+    { "key": "w1-sama", "text": "Sama-sama", "en": "You're welcome", "pron": "SAH-mah SAH-mah", "tags": ["politeness"], "register": "neutral" },
+    { "key": "w1-permisi", "text": "Permisi", "en": "Excuse me (to pass by or get attention)", "pron": "pur-MEE-see", "tags": ["politeness"], "register": "neutral" },
+    { "key": "w1-maaf", "text": "Maaf", "en": "Sorry", "pron": "MAH-ahf", "tags": ["politeness"], "register": "neutral" },
+    { "key": "w1-tidak-apa", "text": "Tidak apa-apa", "en": "It's okay / no problem", "pron": "TEE-dah AH-pah AH-pah", "tags": ["politeness"], "register": "formal", "note": "Casual: Nggak apa-apa." },
+    { "key": "w1-silakan", "text": "Silakan", "en": "Please (go ahead / help yourself)", "pron": "see-LAH-kahn", "tags": ["politeness"], "register": "neutral", "note": "Use when offering. To ask for help, use Tolong." },
+    { "key": "w1-tolong", "text": "Tolong", "en": "Please (asking for help) / help!", "pron": "TOH-long", "tags": ["politeness"], "register": "neutral" },
+    { "key": "w1-nama", "text": "Nama saya Bryan", "en": "My name is Bryan", "pron": "NAH-mah SAH-yah BRAI-un", "tags": ["introductions"], "register": "neutral" },
+    { "key": "w1-siapa", "text": "Siapa nama Anda?", "en": "What is your name? (polite)", "pron": "see-AH-pah NAH-mah AHN-dah", "tags": ["introductions"], "register": "formal" },
+    { "key": "w1-dari", "text": "Saya dari Singapura", "en": "I'm from Singapore", "pron": "SAH-yah DAH-ree sing-ah-POO-rah", "tags": ["introductions"], "register": "neutral" },
+    { "key": "w1-bapak-dari", "text": "Bapak dari mana?", "en": "Where are you from, sir?", "pron": "BAH-pah DAH-ree MAH-nah", "tags": ["introductions"], "register": "formal", "note": "The title replaces \"you\". To a woman: Ibu dari mana?" },
+    { "key": "w1-senang", "text": "Senang bertemu dengan Anda", "en": "Nice to meet you (polite)", "pron": "suh-NAHNG bur-tuh-MOO duh-NGAHN AHN-dah", "tags": ["introductions"], "register": "formal" },
+    { "key": "w1-belajar", "text": "Saya sedang belajar bahasa Indonesia", "en": "I'm learning Indonesian", "pron": "SAH-yah suh-DAHNG buh-LAH-jar bah-HAH-sah in-doh-NEH-see-ah", "tags": ["introductions"], "register": "neutral" },
+    { "key": "w1-pelan", "text": "Tolong bicara pelan-pelan", "en": "Please speak slowly", "pron": "TOH-long bee-CHAH-rah puh-LAHN puh-LAHN", "tags": ["survival"], "register": "neutral" },
+    { "key": "w1-mengerti", "text": "Maaf, saya belum mengerti", "en": "Sorry, I don't understand yet", "pron": "MAH-ahf, SAH-yah buh-LOOM muh-NGUR-tee", "tags": ["survival"], "register": "neutral", "note": "belum = not yet — more hopeful than tidak." },
+    { "key": "w1-sampai", "text": "Sampai jumpa", "en": "See you", "pron": "SAHM-pai JOOM-pah", "tags": ["greetings"], "register": "neutral" },
+    { "key": "w1-bapak", "text": "Bapak / Pak", "en": "Sir, Mr (older or respected man)", "pron": "BAH-pah / pah", "tags": ["address"], "register": "formal", "accept": ["bapak", "pak"] },
+    { "key": "w1-ibu", "text": "Ibu / Bu", "en": "Madam, Mrs (older or respected woman)", "pron": "EE-boo / boo", "tags": ["address"], "register": "formal", "accept": ["ibu", "bu"] },
+    { "key": "w1-mas", "text": "Mas", "en": "\"Brother\" — for a young man (waiter, driver)", "pron": "mahs", "tags": ["address"], "register": "casual" },
+    { "key": "w1-mbak", "text": "Mbak", "en": "\"Sister\" — for a young woman", "pron": "m-BAHK", "tags": ["address"], "register": "casual" },
+    { "key": "w1-anda", "text": "Anda", "en": "you (polite)", "pron": "AHN-dah", "tags": ["address"], "register": "formal" },
+    { "key": "w1-kamu", "text": "kamu", "en": "you (casual, to friends)", "pron": "KAH-moo", "tags": ["address"], "register": "casual" },
+    { "key": "w1-bapak-ibu", "text": "Bapak-Ibu sekalian", "en": "Everyone / ladies and gentlemen (addressing a group)", "pron": "BAH-pah EE-boo suh-KAH-lee-ahn", "tags": ["address", "faith"], "register": "formal" },
+    { "key": "w1-syalom", "text": "Syalom", "en": "Shalom — greeting among Indonesian Christians", "pron": "shah-LOHM", "tags": ["faith"], "register": "neutral" },
+    { "key": "w1-minggu", "text": "Selamat hari Minggu", "en": "Happy Sunday (greeting at church)", "pron": "suh-LAH-maht HAH-ree MING-goo", "tags": ["faith"], "register": "neutral" },
+    { "key": "w1-berkati", "text": "Tuhan memberkati", "en": "God bless (you)", "pron": "TOO-hahn mum-bur-KAH-tee", "tags": ["faith"], "register": "neutral" },
+    { "key": "t-uang", "text": "uang", "en": "money", "pron": "OO-ahng", "tags": ["trap"], "register": "neutral", "malay": "duit", "note": "Duit is understood but slangy. Uang is standard." },
+    { "key": "t-nggak", "text": "nggak", "en": "no / not (casual)", "pron": "ngahk", "tags": ["trap"], "register": "casual", "malay": "tak", "note": "Formal is tidak. Tak sounds Malay in Indonesia." },
+    { "key": "t-mobil", "text": "mobil", "en": "car", "pron": "MOH-beel", "tags": ["trap"], "register": "neutral", "malay": "kereta", "note": "In Indonesia, kereta means TRAIN." },
+    { "key": "t-gratis", "text": "gratis", "en": "free (no cost)", "pron": "GRAH-tees", "tags": ["trap"], "register": "neutral", "malay": "percuma", "note": "In Indonesia, percuma means pointless / in vain." },
+    { "key": "t-bisa", "text": "bisa", "en": "can, able to", "pron": "BEE-sah", "tags": ["trap"], "register": "neutral", "malay": "boleh", "note": "Boleh exists but means \"may / allowed to\"." },
+    { "key": "t-paham", "text": "paham", "en": "understand", "pron": "PAH-hahm", "tags": ["trap"], "register": "neutral", "malay": "faham", "note": "Also common: mengerti." },
+    { "key": "t-kamar-mandi", "text": "kamar mandi", "en": "bathroom", "pron": "KAH-mar MAHN-dee", "tags": ["trap"], "register": "neutral", "malay": "bilik air", "note": "Toilet / WC (way-say) also works." },
+    { "key": "t-bicara", "text": "bicara", "en": "to speak", "pron": "bee-CHAH-rah", "tags": ["trap"], "register": "neutral", "malay": "cakap", "note": "Casual: ngomong." },
+    { "key": "t-udah", "text": "udah", "en": "already (casual sudah)", "pron": "OO-dah", "tags": ["trap"], "register": "casual", "malay": "dah", "note": "Formal: sudah." }
+  ]
+}

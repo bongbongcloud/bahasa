@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Belajar Bahasa</title>
+  <meta name="description" content="A 5-minute-a-day Bahasa Indonesia trainer with weekly check-ins.">
+  <meta name="theme-color" content="#FBF7F1" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#16120F" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Belajar">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="view" class="wrap" aria-live="polite"><p class="muted center loading">Memuat… loading</p></main>
+  <nav class="nav" aria-label="Main">
+    <a href="#home" data-r="home"><span class="ico" data-icon="home"></span><span>Beranda</span></a>
+    <a href="#phrases" data-r="phrases"><span class="ico" data-icon="book"></span><span>Kamus</span></a>
+    <a href="#checkin" data-r="checkin"><span class="ico" data-icon="check"></span><span>Check-in</span></a>
+    <a href="#settings" data-r="settings"><span class="ico" data-icon="gear"></span><span>Atur</span></a>
+  </nav>
+  <script>
+    // Inline nav icons (kept here so the nav renders before the app loads)
+    const I = {
+      home: '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/></svg>',
+      book: '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17H6.5A2.5 2.5 0 0 0 4 21.5z"/><path d="M4 21.5A2.5 2.5 0 0 1 6.5 19H20v3H6.5"/></svg>',
+      check: '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M8 2v4M16 2v4M3 9h18"/><path d="m9 15 2 2 4-4"/></svg>',
+      gear: '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>'
+    };
+    document.querySelectorAll('[data-icon]').forEach(el => el.innerHTML = I[el.dataset.icon]);
+  </script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
